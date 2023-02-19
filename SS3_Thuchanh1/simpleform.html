@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="./style_simpleform.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <form method="get" action="simpleform.html" class="wufoo"></form>
+            <h2>ORDER FORM</h2>
+            <div class="prd">
+                <form method="get" action="simpleform.html">
+                    <label for="product">What would you like to buy?</label> <br>
+                    <select name="product" id="product">
+                        <option value=" ">A</option>
+                        <option value="b">B (+  0.5$)</option>
+                        <option value="c">C (+  0.5$)</option>
+                        <option value="d">D (+  0.5$)</option>
+                    </select>
+                </form> <br>
+            </div>
+            <div class="amount">
+                <p>How many would you like to order?</p>
+                <form>
+                    <input type="radio" name="rd"/>1-$10<br>
+                    <input type="radio" name="rd"/>2-$20<br>
+                    <input type="radio" name="rd"/>3-$30<br> <br>
+                    <input type="reset" value="Reset">
+                </form> <br>
+            </div>
+            <div class="name">
+                <p>Name<span style="color: red;">*</span></p>
+                <form>
+                    <input type="text" name="firstname" value="First Name" size="15">
+                    <input type="text" name="lastname" value="Last Name" size="15">
+                </form> <br>
+            </div>
+            <div class="email">
+                <form>
+                    <label label for="email">Email</label> <br>
+                    <input type="text" name="email" size="35">
+                </form> <br>
+            </div>
+            <div class="phonenumber">
+                <form>
+                    <label label for="phone">Phone number</label> <br>
+                    <input type="text" name="phone1" size="5"> -
+                    <input type="text" name="phone2" size="5"> -
+                    <input type="text" name="phone3" size="5">
+                </form> <br> <br>
+            </div>
+            <div class="submit">
+                <input type="submit">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
