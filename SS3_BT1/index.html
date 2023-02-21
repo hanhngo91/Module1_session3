@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form đơn giản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <form class="hobby">
+                <h2>Sở thích của bạn</h2>
+                <table class="table1">
+                    <tr>
+                        <td class="A">
+                            <label class="color" for="name">Họ và tên</label>
+                        </td>
+                        <td>
+                            <input class="account" type="text" name="account" placeholder="yourname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="A">
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" placeholder="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="A B">
+                            <label for="hobby">Sở thích</label>
+                        </td>
+
+                        <td>
+                            <div class= "hobby1">
+                                <div>
+                                    <span><input type="checkbox">Thể thao</span>
+                                    <span><input type="checkbox">Lướt web</span>
+                                    <span><input type="checkbox">Du lịch</span>
+                                </div>
+                                <div>
+                                    <span><input type="checkbox">Âm nhạc</span>
+                                    <span><input type="checkbox">Chơi game</span>
+                                </div>
+                                <div>
+                                    <span><input type="checkbox">Đọc sách</span>
+                                    <span><input type="checkbox">Điện ảnh</span>
+                                </div>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                    <tr class="button">
+                        <td colspan="2">
+                            <button>Gửi thông tin</button>
+                            <button>Nhập lại</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <form class="register">
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <div>
+            <label for="name">Họ và tên</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="bday">Ngày sinh</label>
+            <input type="text" name="bday">
+        </div>
+        <div>
+            <label for="gender">Giới tính</label>
+            <input type="radio">Nam
+            <input type="radio">Nữ
+        </div>
+        <div>
+            <label for="class">Lớp</label>
+            <select>
+                <option value="classselect">- Chọn lớp -</option>
+                <option value="english">Tiếng Anh</option>
+                <option value="japanese">Tiếng Nhật</option>
+                <option value="german">Tiếng Đức</option>
+                <option value="spanish">Tiếng Tây Ban Nha</option>
+            </select>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Điện thoại</label>
+            <input type="text">
+        </div>
+        <input type="submit" value="Đăng ký">
+        <button>Nhập lại</button>
+    </form>
+
+</body>
+
+</html>

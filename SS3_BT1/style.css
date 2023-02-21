@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 280px;
+    background-color: #d5feff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* -----style for hobby----- */
+  .container1 {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+  }
+  .container1 h2 {
+    background-color: red;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+  }
+  .table1 {
+    border-spacing: 10px;
+    margin-left: 20px;
+  }
+  span {
+    margin: 5px;
+    color: red;
+  }
+  input {
+    padding: 3px;
+    margin-right: 5px;
+    outline: none;
+  }
+  .account {
+    width: 250px;
+  }
+  .A {
+    text-align: right;
+    line-height: 100%;
+  }
+  label {
+    color: blue;
+  }
+  .B {
+    padding-bottom: 40px;
+  }
+  .button {
+    text-align: center;
+  }
+  .hobby1 {
+    display: flex;
+  }
+  span {
+    display: block;
+  }
+  button {
+    padding: 3px 10px;
+    border: none;
+    background-color: rgb(215, 214, 214);
+    font-size: 95%;
+    margin: 3px;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: red;
+    color: white;
+    transition: 1s;
+  }
+
+/* -----style for register----- */
