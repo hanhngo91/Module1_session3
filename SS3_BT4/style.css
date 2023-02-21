@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.a {
+    width: 80%;
+    margin: auto;
+}
+.content {
+    
+    display: flex;
+    justify-content: space-between;
+}
+table th, td {
+
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0px;
+}
+thead {
+    background-color: burlywood;
+}
